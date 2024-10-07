@@ -32,7 +32,7 @@ def main():
     
     parser.add_argument('-e', '--endpoint', required=True, help='The endpoint of the RDS instance')
     parser.add_argument('-p', '--port', type=int, required=True, help='The port number of the RDS instance')
-    parser.add_argument('-t', '--target', default='i-02b61c4bbc3946f7f', help='The target instance ID of the SSM bastion host')
+    parser.add_argument('-t', '--target', default='i-XXXXX', help='The target instance ID of the SSM bastion host')
     parser.add_argument('--local-port', type=int, help='The local port number (if not specified, the same as --port)')
     parser.add_argument('-r', '--region', default='us-west-2', help='The AWS region (default: us-west-2)')
     parser.add_argument('-P', '--profile', required=True, help='The AWS profile to use')
