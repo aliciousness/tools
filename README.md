@@ -1,5 +1,3 @@
-Here’s the full markdown-formatted README you can now copy:
-
 # Script: Setup Python Virtual Environment and Install Dependencies
 
 This Bash script automates the setup of a Python virtual environment, installation of dependencies, and updating the `requirements.txt` file. Additionally, it provides an option to install the dependencies globally and configure the script for global access.
